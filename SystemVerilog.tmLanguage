@@ -178,7 +178,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(initial|always|wait|force|release|assign)\b</string>
+				<string>\b(initial|always|always_comb|always_ff|wait|force|release|assign)\b</string>
 				<key>name</key>
 				<string>keyword.control.systemverilog</string>
 			</dict>
@@ -340,7 +340,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(output|input|inout|and|nand|nor|or|xor|xnor|buf|not|bufif[01]|notif[01]|r?[npc]mos|tran|r?tranif[01]|pullup|pulldown)\b</string>
+				<string>\b(output|input|inout|enum|and|nand|nor|or|xor|xnor|buf|not|bufif[01]|notif[01]|r?[npc]mos|tran|r?tranif[01]|pullup|pulldown)\b</string>
 				<key>name</key>
 				<string>support.type.systemverilog</string>
 			</dict>
@@ -391,7 +391,7 @@
 				<array>
 					<dict>
 						<key>begin</key>
-						<string>/\* ?</string>
+						<string>/\*</string>
 						<key>captures</key>
 						<dict>
 							<key>0</key>
@@ -401,7 +401,7 @@
 							</dict>
 						</dict>
 						<key>end</key>
-						<string> \*/</string>
+						<string>\*/</string>
 						<key>name</key>
 						<string>comment.block.systemverilog</string>
 					</dict>
