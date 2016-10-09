@@ -5,8 +5,7 @@
 	<key>content</key>
 	<string><![CDATA[generate
 	genvar ${1:i};
-	for ($1 = 0; $1 < ${2:n}; $1 = $1 + 1)
-	begin:${3:identifier}
+	for ($1 = 0; $1 < ${2:n}; $1++) begin: ${3:identifier}
 		$0
 	end
 endgenerate]]></string>
