@@ -8,6 +8,8 @@
 		<array>
 			<string>sv</string>
 			<string>SV</string>
+			<string>svp</string>
+			<string>SVP</string>
 		</array>
 		<key>foldingStartMarker</key>
 		<string>(begin)\s*(//.*)?$</string>
@@ -472,7 +474,7 @@
 							</dict>
 						</array>
 					</dict>
-			    <!-- single-quoted strings
+				<!-- single-quoted strings
 					<dict>
 						<key>begin</key>
 						<string>'</string>
@@ -506,7 +508,7 @@
 							</dict>
 						</array>
 					</dict>
-                -->
+				-->
 				</array>
 			</dict>
 		</dict>
