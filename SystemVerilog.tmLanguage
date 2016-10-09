@@ -168,7 +168,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(automatic|cell|config|deassign|defparam|design|disable|edge|endconfig|endgenerate|endspecify|endtable|endtask|event|generate|genvar|ifnone|incdir|include|instance|liblist|library|localparam|macromodule|negedge|noshowcancelled|posedge|pulsestyle_onevent|pulsestyle_ondetect|real|realtime|scalared|showcancelled|specify|specparam|table|task|time|use|vectored)\b</string>
+				<string>\b(automatic|cell|config|deassign|defparam|design|disable|edge|endconfig|endgenerate|endinterface|endspecify|endtable|endtask|event|generate|genvar|ifnone|incdir|include|instance|interface|liblist|library|localparam|macromodule|negedge|noshowcancelled|posedge|pulsestyle_onevent|pulsestyle_ondetect|real|realtime|scalared|showcancelled|specify|specparam|table|task|time|typedef|use|vectored)\b</string>
 				<key>name</key>
 				<string>keyword.other.systemverilog</string>
 			</dict>
@@ -180,7 +180,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(initial|always|always_comb|always_ff|wait|force|release|assign)\b</string>
+				<string>\b(initial|always|always_comb|always_ff|always_latch|wait|force|release|assign)\b</string>
 				<key>name</key>
 				<string>keyword.control.systemverilog</string>
 			</dict>
@@ -342,7 +342,7 @@
 			</dict>
 			<dict>
 				<key>match</key>
-				<string>\b(output|input|inout|enum|and|nand|nor|or|xor|xnor|buf|not|bufif[01]|notif[01]|r?[npc]mos|tran|r?tranif[01]|pullup|pulldown)\b</string>
+				<string>\b(output|input|inout|and|nand|nor|or|xor|xnor|buf|not|bufif[01]|notif[01]|r?[npc]mos|tran|r?tranif[01]|pullup|pulldown)\b</string>
 				<key>name</key>
 				<string>support.type.systemverilog</string>
 			</dict>
@@ -426,14 +426,14 @@
 			<key>storage-type-systemverilog</key>
 			<dict>
 				<key>match</key>
-				<string>\b(wire|tri|tri[01]|supply[01]|wand|triand|wor|trior|trireg|reg|parameter|integer)\b</string>
+				<string>\b(wire|tri|tri[01]|supply[01]|wand|triand|wor|trior|trireg|reg|parameter|integer|logic|bit|byte|shortint|int|longint|string)\b</string>
 				<key>name</key>
 				<string>storage.type.systemverilog</string>
 			</dict>
 			<key>storage-modifier-systemverilog</key>
 			<dict>
 				<key>match</key>
-				<string>\b(signed|unsigned|small|medium|large|supply[01]|strong[01]|pull[01]|weak[01]|highz[01])\b</string>
+				<string>\b(enum|struct|signed|unsigned|small|medium|large|supply[01]|strong[01]|pull[01]|weak[01]|highz[01])\b</string>
 				<key>name</key>
 				<string>storage.modifier.systemverilog</string>
 			</dict>
