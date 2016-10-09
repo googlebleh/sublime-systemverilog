@@ -6,3 +6,16 @@ Supports Verilog files (*.sv, *.svp)
 Features include
  - Syntax Hightlighting
  - Code snippets
+
+TODO:
+    - Snippets:
+        - New: module
+        - New: always_comb
+        - New: case
+        - New: maybe parameter
+        - New: typedef struct; hook is "tstruct"
+        - try to condense the two posedges in always
+        - change always to always_ff snippet
+    - Syntax Highlighting
+        - Add other new features from Wikipedia
+            - Very future plans: add snippets for all
