@@ -1,7 +1,7 @@
-# Sublime Text Verilog
-Verilog Package for Sublime Text 2/3. Based on [Verilog plugin](http://sublime-text-community-packages.googlecode.com/svn/pages/Verilog.html) from Sublime Text Community Packages.
+# Sublime Text SystemVerilog
+Verilog Package for Sublime Text 2/3. Based on [Verilog plugin](https://github.com/pro711/sublime-verilog) by pro711.
 
-Supports Verilog files (*.v, *.V)
+Supports Verilog files (*.sv, *.SV)
 
 Features include
  - Syntax Hightlighting
