@@ -5,15 +5,15 @@
       "name": "Sublime Text SystemVerilog",
       "description": "SystemVerilog Package for Sublime Text 3",
       "author": "Colin Wee",
-      "homepage": "https://github.com/pro711/sublime-verilog",
-      "details": "https://github.com/pro711/sublime-verilog",
-      "issues" : "https://github.com/pro711/sublime-verilog/issues",
+      "homepage": "https://github.com/googlebleh/sublime-systemverilog",
+      "details": "https://github.com/googlebleh/sublime-systemverilog",
+      "issues" : "https://github.com/googlebleh/sublime-systemverilog/issues",
       "releases" : [
         {
           "platforms": "*",
           "sublime_text": "*",
           "version": "0.1.2",
-          "url": "https://nodeload.github.com/pro711/sublime-verilog/zip/master"
+          "url": "https://nodeload.github.com/googlebleh/sublime-systemverilog/zip/master"
         }
       ]
     }
