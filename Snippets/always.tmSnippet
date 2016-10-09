@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>always @(posedge clk or ${1:posedge} ${2:rst}) begin
+	<string>always @(posedge clock or ${1:posedge} ${2:reset}) begin
 	if ($2) begin
 		// reset
 		$3
@@ -15,7 +15,7 @@ end</string>
 	<key>name</key>
 	<string>always</string>
 	<key>scope</key>
-	<string>source.verilog</string>
+	<string>source.systemverilog</string>
 	<key>tabTrigger</key>
 	<string>always</string>
 	<key>uuid</key>

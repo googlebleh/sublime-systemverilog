@@ -13,7 +13,7 @@ endgenerate]]></string>
 	<key>name</key>
 	<string>forg</string>
 	<key>scope</key>
-	<string>source.verilog</string>
+	<string>source.systemverilog</string>
 	<key>tabTrigger</key>
 	<string>forg</string>
 	<key>uuid</key>

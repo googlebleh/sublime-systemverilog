@@ -10,7 +10,7 @@ endgenerate</string>
 	<key>name</key>
 	<string>generate</string>
 	<key>scope</key>
-	<string>source.verilog</string>
+	<string>source.systemverilog</string>
 	<key>tabTrigger</key>
 	<string>generate</string>
 	<key>uuid</key>

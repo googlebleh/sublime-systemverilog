@@ -9,7 +9,7 @@ end</string>
 	<key>name</key>
 	<string>else</string>
 	<key>scope</key>
-	<string>source.verilog</string>
+	<string>source.systemverilog</string>
 	<key>tabTrigger</key>
 	<string>else</string>
 	<key>uuid</key>

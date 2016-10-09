@@ -2,9 +2,9 @@
   "schema_version": "2.0",
   "packages": [
     {
-      "name": "Sublime Text Verilog",
-      "description": "Verilog Package for Sublime Text 2/3",
-      "author": "Tao Chen",
+      "name": "Sublime Text SystemVerilog",
+      "description": "SystemVerilog Package for Sublime Text 3",
+      "author": "Colin Wee",
       "homepage": "https://github.com/pro711/sublime-verilog",
       "details": "https://github.com/pro711/sublime-verilog",
       "issues" : "https://github.com/pro711/sublime-verilog/issues",
